@@ -1,0 +1,78 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f3ea;
+    color: #222;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 20px;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+button {
+    background: #fffdf7;
+    border: 1px solid #e3d9bd;
+    border-radius: 8px;
+    color: #2f2413;
+    cursor: pointer;
+    padding: 10px 14px;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: #fffdf7;
+}
+
+input {
+    background: #fffef9;
+    border: 1px solid #d3c08c;
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-right: 8px;
+}
+
+.version-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.version-links a {
+    color: #5a3d0d;
+    text-decoration: none;
+}
+
+.version-links a:hover {
+    text-decoration: underline;
+}
+
+.story-text {
+    white-space: pre-wrap;
+    background: #fffdf7;
+    border: 1px solid #e3d9bd;
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.skip-button {
+    margin-bottom: 12px;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+#choices button {
+    width: 100%;
+    text-align: left;
+}
+

@@ -1,0 +1,517 @@
+{
+  "START_SCENE": {
+    "text": "You wake up to a mind-numbingly bright masculine figure; his white glow makes it nearly impossible to discern any features aside from a bit of muscle definition. He speaks before you can get your bearings.\n\t“Welcome, [enteredName]. It seems you have died. Quite unfortunate, really. Worry not, though, I'll be your guide angel.” His voice was desensitized; he sounded like any old worker.\n\tYou place a hand on your head, squinting your eyes, trying to make any sense of what's going on.",
+    "choices": [
+      {
+        "id": "ASK_LOCATION_CHOICE",
+        "text": "\"W-Where am I?\"",
+        "next": "ANGEL_RESPONSE_ONE_SCENE"
+      },
+      {
+        "id": "ASK_DEATH_CHOICE",
+        "text": "\"D-Dead?\"",
+        "next": "ANGEL_RESPONSE_TWO_SCENE"
+      }
+    ]
+  },
+  "ANGEL_RESPONSE_ONE_SCENE": {
+    "text": "“Why, you're in heaven, my friend. Don't be alarmed. You might have a bit of brain fog; it's just a side effect of your soul ascending. Be proud you made it here and not down below. Now, before we go to the office to decide your fate, do you have any questions?”",
+    "choices": [
+      {
+        "id": "ASK_HOW_YOU_DIED_CHOICE",
+        "text": "\"How did I die?\"",
+        "next": "ANGEL_RESPONSE_THREE_SCENE"
+      },
+      {
+        "id": "ASK_WHATS_OFFICE_CHOICE",
+        "text": "\"What's 'the office?'\"",
+        "next": "ANGEL_RESPONSE_FOUR_SCENE"
+      }
+    ]
+  },
+  "ANGEL_RESPONSE_TWO_SCENE": {
+    "text": "“Indeed. You died and ascended. You might have a bit of a headache, just a side effect of the ascent; it will clear up in no time at all. Now, before we go to the office to decide your fate, do you have any questions?”",
+    "choices": [
+      {
+        "id": "ASK_HOW_YOU_DIED_CHOICE",
+        "text": "\"How did I die?\"",
+        "next": "ANGEL_RESPONSE_THREE_SCENE"
+      },
+      {
+        "id": "ASK_WHATS_OFFICE_CHOICE",
+        "text": "\"What's 'the office?'\"",
+        "next": "ANGEL_RESPONSE_FOUR_SCENE"
+      }
+    ]
+  },
+    "ANGEL_RESPONSE_THREE_SCENE": {
+        "text": "“Unfortunately, and I know it may seem unfair, but the information in your file is limited to mostly basic information-your name, age at death, family, etc. If you want to see death records, you'd have to talk to a higher authority. They're quite busy. I would bite my tongue and swallow that curiosity if I were you. Now, are you ready to go to the office?”",
+        "choices": [
+            {
+                "id": "ASK_WHATS_OFFICE_CHOICE",
+                "text": "\"What's 'the office?'\"",
+                "next": "ANGEL_RESPONSE_FOUR_SCENE"
+            },
+            {
+                "id": "CONFIRM_GOING_TO_OFFICE_CHOICE",
+                "text": "\"Yes, let's go.\"",
+                "next": "GOING_TO_OFFICE_SCENE"
+            }
+        ]
+    },
+    "ANGEL_RESPONSE_FOUR_SCENE": {
+        "text": "“The office is where we calculate your karma and give you options to continue your life, or lack thereof. Are you ready to go there?”",
+        "choices": [
+            {
+                "id": "ASK_HOW_YOU_DIED_CHOICE",
+                "text": "\"How did I die?\"",
+                "next": "ANGEL_RESPONSE_THREE_SCENE"
+            },
+            {
+                "id": "CONFIRM_GOING_TO_OFFICE_CHOICE",
+                "text": "\"Yes, let's go.\"",
+                "next": "GOING_TO_OFFICE_SCENE"
+            }
+        ]
+    },
+    "GOING_TO_OFFICE_SCENE": {
+        "text": "The Angel gestures for you to follow, which you hesitantly do. You take note of the surrounding area; there's not a lot going on. The surface beneath you is as reflective as water, yet solid and completely flat. The sky is blindingly bright, t and the horizon is endless. It'’'s eerie, feels lonely in a way.\nThe walk is brief; in a few minutes, you reach a tall skyscraper-esque building—a generic building at that. The walls were more so window, really. You could imagine the migraine a worker would get working in that mess.\nWhen you walk in, you immediately feel how cold the air is. I guess you were too distracted to notice how warm it was outside. There was a line of chairs at the side of the building with clearly anxious individuals waiting, some tapping their feet and others biting their nails. They must've died recently as well, you figure.\nOne of them was an older woman with a younger girl; they had glass shards stuck in their body. Remnants from how they died? Maybe a car crash? The older woman held the young girl closer, rocking her in the cushioned chairs provided for waiting. They must've died together, a mother and daughter perhaps?\nYou look at your arms and legs out of instinct, and there doesn't seem to be evidence of trauma as they have. Maybe a sickness? It's not worth worrying over, as the guide angel said.\nHe looks at you. “Well, I didn't figure I had to say anything, but you should really get in line. Unless you'd like to stay stuck here forever?”\nYou shake your head. “Sorry, I was taking it all in.”\nHe nodded. “The others are just like you; they all have their own angel guiding them, which you cannot see.”\nYou follow his suggestion and get into line. It seems that three receptionists are available. They glow as well, but compared to your guide angel its subtle. You can make individualistic features out. They're all dressed in uniform. Nothing stands out to you; they all look like average women you'd find working at an office. Even their eye bags suggest they're overworked. Who would've guessed angels had to work tiring jobs like these?\n“So what should I say?” You ask the large angel to stand beside you.\n“I'll give them your file, they'll look you up in the system, give you your options, and then you'll tell them what you'd like to do. You can also decide to sit on it and think it over. There's no rush, of course.”\n“What are the options usually?”\n“Reincarnation, ascension, and promotion.”\n“I thought we already ascended?”\n“Well, yes, but this is more of a limbo. It's a subspace of heaven, really.”\nYou were about to ask another question before you were urged to come up to a newly opened desk. You felt a drop in your stomach as your folder was handed to the angel behind the desk.\n“First time dying?” She asked, trying to ease your anxiety, although it was more morbid than anything.\nYou swallowed. “Yeah. Wouldn't recommend.”\n“Well, don't worry, we here at Heaven INC. try to make your experience as easy as possible!” She began putting your information into the system. After a few button clicks, her happy-go-lucky expression shifted; she looked nervous and pulled at her collar.\n“Is something wrong?” I asked, my voice shaking a bit.\n“Well, you see, your options are based on your karma score. Um. Unfortunately, your karma is quite low. It seems your only option is reincarnation.”\n“That doesn't seem so bad?”\n“Reincarnation as a dog.”\n“A dog? Nothing else? Not a human？”\n“A dog is the best we can do for you. Or cat. Or snake even. But you’ll have the best luck as a dog, trust me。”\nYou sigh and weigh your options, or lack thereof.",
+        "choices": [
+            {
+                "id": "DOG_CONFIRMATION_CHOICE",
+                "text": "You accept your fate to be reincarnated as a dog.",
+                "next": "DOG_REINCARNATION_SCENE"
+            },
+            {
+                "id": "BEG_FOR_OPTIONS_CHOICE",
+                "text": "Plead for another option.",
+                "next": "OTHER_OPTIONS_SCENE"
+            }
+        ]
+    },
+    "DOG_REINCARNATION_SCENE": {
+        "text": "You sigh. “Well, if it's my only option, what choice do I have?”\nShe smiled. “On the bright side, when we see you again, depending on how you lived your new life, there’s a good chance you’ll have increased your karma!”\nYou nod at her attempt to console you, but still feel trapped.\nYour guide angel looks at you. “Well, are you ready to go?”\nYou look back at him. “I guess.”\nYou follow him into a room he unlocked, which has a frame of sorts covering the back wall. In front of it is some kind of operating device, which he approaches. After pressing a few of the buttons and entering something using the keypad attached, the frame illuminates, and a portal appears in the middle of it.\nThe angel turns around. “Enter when you’re ready. This will take you to your new life. You'll have no recollection of today's events.”\nTaking a breath, you step through the portal.",
+        "choices": [
+            {
+                "id": "BEGIN_DOG_LIFE_CHOICE",
+                "text": "You begin your new life as a dog.",
+                "next": "BEGIN_DOG_LIFE_SCENE"
+            }
+        ]
+    },
+    "BEGIN_DOG_LIFE_SCENE": {
+        "text": "You live casually as a dog, until one day, you find yourself at death's door at the side of the road, with a nasty injury from fighting with another dog. Your choices for survival are limited.",
+        "choices": [
+            {
+                "id": "FIND_RECOVERY_SPOT_CHOICE",
+                "text": "Find somewhere to recover.",
+                "next": "RECOVERY_SCENE"
+            },
+            {
+                "id": "BEG_FOR_HELP_CHOICE",
+                "text": "Beg for human help.",
+                "next": "DOG_BEG_SCENE"
+            }
+        ]
+    },
+    "RECOVERY_SCENE": {
+        "text": "You back into an alleyway away from any foot traffic in an attempt to get your bearings. You lie down in a dark spot and breathe slowly, soon falling asleep in your body's attempt to heal and regain strength.\nAfter several hours, you wake, and you've gathered enough strength to move. You sniff with your head close to the floor, trying to catch the scent of anything edible in the alley. It only takes a moment to pick up the smell of discarded food. You follow the trail, ending up at a half-eaten, maybe day-old burger covered in flies and dirt. You take no time to hastily scarf the food down.\nAbout halfway through your meal, your ears perk up at the clack of claws against the concrete. Other strays were approaching; you figure about three based on your hearing.\nYou finish off the food quickly before they arrive.",
+        "choices": [
+            {
+                "id": "FIND_HIDING_SPOT_CHOICE",
+                "text": "You think confrontation isn't the best in your state, especially against a pack. You're only a mid-sized dog and don't think it's worth the risk. ",
+                "next": "HIDE_SCENE"
+            },
+            {
+                "id": "CONFRONT_PACK_CHOICE",
+                "text": "You do your best to hide any signs of vulnerability and wait for the pack of strays to come closer.",
+                "next": "CONFRONT_SCENE"
+            }
+        ]
+    },
+    "HIDE_SCENE": {
+        "text": "You delicately walk, masking the sound of any footsteps, down the alleyway, looking for any crevice big enough for you to fit in. You find a box and figure it'll do, your coat's dark enough to blend in with the dimly lit alley. There's no way they'd catch your scent over the smell of rot and filth.\nThe sound grows closer, and you peek your head out ever so slightly to catch sight of the pack. Two smaller strays and a mid-size dog similar to your size. Had you been at your full strength, you might've stood a chance if they intended a fight, but the risk was too high as it was now.\nYou wait for them to give up and move on to a new area. Once their steps were no longer heard, you breathed, relieved. Now, with a full stomach, you could properly regain your strength.\nOver the next few days, you heal fully from your injury, staying in the alleyway for coverage and food, but it wasn't sustainable forever; you needed to figure something new out.",
+        "choices": [
+            {
+                "id": "RETURN_TO_STREET_CHOICE",
+                "text": "You decide there'll be more opportunities for you on the street.",
+                "next": "STREETS_SCENE"
+            }
+        ]
+    },
+    "CONFRONT_SCENE": {
+        "text": "You stand as tall as you can, puffing your fur to look as large as you can. Three dogs turn the corner and see you there-two smaller strays and a mid-size one, similar to you. You don't show vulnerability, but make it clear you don't intend a fight either.\nThe stray sizes you up, and you hold your bluff long enough for them not to instigate a fight. The three circles you, taking in your scent. You allow them. They seem indifferent towards you.",
+        "choices": [
+            {
+                "id": "SUMBIT_TO_ALPHA_CHOICE",
+                "text": "You decide to submit to the alpha.",
+                "next": "SUBMIT_TO_ALPHA_SCENE"
+            },
+            {
+                "id": "LEAVE_THEM_CHOICE",
+                "text": "Once the pack retreats from your circle, you walk away.",
+                "next": "LEAVING_SCENE"
+            }
+        ]
+    },
+    "RUN_AWAY_SCENE": {
+        "text": "You flee quickly, the man had no interest in pursuing you into the crowd you vanished into it. You’re clearly bruised and injured from where he kicked you; your ears are nestled back into your head from the pain.\nYou laboriously find a place to rest on the side of the street, the spot where he kicked you only begins to ache more; it doesn’t seem to be healing. You decide you must need food and attempt to find some, walking along the street, but you don’t make it far before you collapse.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "SUBMIT_TO_ALPHA_SCENE": {
+        "text": "You lower your neck in a submissive stance, pleading your allegiance to the pack alpha if he accepts you. He placed his head over yours in a display of dominance and accepted you into his pack.\nBeing in a pack made healing much safer. After a few weeks, you were at your peak performance and grew to think of your pack as family.\nWhile you were scavenging, you heard a cry from one of the smaller strays in your pack. Your ears quickly perk up, and you run over, taking a moment to absorb the scene. A much larger pack than yours—five dogs, two large, three mid-sized—demanding the territory from your pack. They already killed one of yours.\nYou meet eyes with the alpha.",
+        "choices": [
+            {
+                "id": "RETURN_TO_STREET_CHOICE",
+                "text": "You decide there'll be more opportunities for you on the street.",
+                "next": "STREETS_SCENE"
+            },
+            {
+                "id": "FIGHT_THE_OPPOSING_PACK_CHOICE",
+                "text": "You know if you take their alpha out, the rest of the pack will pledge their allegiance to you.",
+                "next": "PACK_FIGHT_SCENE"
+            }
+        ]
+    },
+    "PACK_FIGHT_SCENE": {
+        "text": "You gesture towards the alpha with your snout as your alpha watches; he has the same idea. The other smaller stray in your pack is your distraction. The opposing pack hadn't caught wind of your presence yet, so you take advantage of your dark coat to sneak amidst the shadows. The smaller stray led two of the medium dogs away to chase her. With now only two strays surrounding the alpha, your alpha instigates the other two, so you have a clear shot at the alpha using the element of surprise. He now stood alone, listening carefully to determine how his pack was doing. You were sure your pack wouldn't be able to keep them busy for long. Despite the noise pollution, you crept up delicately on him from behind. You leapt straight for his neck, biting down with as much force as you could muster as he desperately tried to shake you off. He backed you against the wall and smashed you against the brick, but you didn't let up, biting down harder as he became more desperate. You felt his retaliatory attacks become weaker and weaker. You had the leverage now. You bit down further on his neck until you heard a snap, letting him fall lifeless to the floor. You howled, victorious, and your pack regrouped at the sight of the corpse, the rest of the pack in utter disbelief at your feat.\nThey bowed their necks towards you, accepting you as their new alpha. Despite the difference in numbers and size, your intelligence led you to become victorious and the leader of what must now be the strongest pack in the city.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "JOIN_OTHER_PACK_SCENE": {
+        "text": "Unfortunately for you, the other pack wouldn't take a traitor into their own pack. As you lower your head to the alpha, he quickly breaks your neck, leaving you dead on the floor as the pack you were in runs away. At least you made a good distraction for them.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "LEAVING_SCENE": {
+        "text": "Turning your back on them while you're injured wasn't a great idea, though. It seems they didn't want competition in the alley, and thus the alpha of the small pack runs at you and bites hard on your neck. Youlre caught off guard, but don't have much time to react as he opens his jaw and crunches again, snapping your bones. \nYou didn't make it very far as a dog, perhaps a side effect of being born a stray.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "DOG_BEG_SCENE": {
+        "text": "At times like these, you must strip yourself of your pride in order to survive. You look as vulnerable as you can and beg for help. Occasionally, a few Humans who pitied you would offer you scraps. \nYou were slowly regaining your strength and found begging at the park to be successful. At a bench, you saw a man with a sandwich and tested your luck, going up to him and whimpering for a bit of sandwich meat or cheese. \nHe looks at you with disgust, cursing at you before giving you a hard kick to your side. You fell over and took a second to regain your composure. He was already walking towards you, gearing up to kick you again.",
+        "choices": [
+            {
+                "id": "ATTACK_HIM_CHOICE",
+                "text": "After getting kicked and cursed at for no reason, you decide he needs to learn a lesson.",
+                "next": "ATTACK_MAN_SCENE"
+            },
+            {
+                "id": "RUN_AWAY_CHOICE",
+                "text": "You decide confrontation isn’t worth the risk.",
+                "next": "RUN_AWAY_SCENE"
+            }
+        ]
+    },
+    "OTHER_OPTIONS_SCENE": {
+        "text": "“Is there really nothing else you can do for me? I'm not sure what I've done in my past life, but I'm not a bad person-I'll change, please, I'll do anything, I'll devote my next life to good. I just need more options.” You sound desperate, but it’s nothing the angels haven't seen before.\nThe woman behind the desk sighs. “Listen, being a dog won't be so bad-”\nYou cut her off. “You can't expect me to be content living as a dog? I'm a human-not a mutt. Give me a chance, please? I'll do anything.” \nShe looks at you with remorse. “I'm telling you, this is far better than anything else we could do for you.” \n“You said you could! That means there are other options.” \nShe nods. “Technically-but they're archaic, and while still possible, they're highly unrecommended. Dangerous even.”\n“I deserve to know at least.” \nYou've egged her on enough; she seems willing to share. “Before we set up the karma system, we had another way of deciding subjects of reincarnation. Basically a gamble. A wheel of fate.” \nYou're intrigued. “And if I go with this wheel of fate, what could happen to me?”\n“It's been a while since I had to go over the procedure. Give me a moment-” She returned her focus to her computer. “Ah, well, you could enter your next life as anything: a human, dog, insect, even bizarre fantastical creatures; however, the possibility you're erased is there as well.” \n“Erased?” You question.\n“Mhm. Your soul goes poof. No more you. So as you can see, it's really not worth the risk.” \nYou think for a moment. It's true, you could be reincarnated as something worse than a dog, erased, but you could also come back as a human.",
+        "choices": [
+            {
+                "id": "DOG_CONFIRMATION_CHOICE",
+                "text": "You accept your fate to be reincarnated as a dog.",
+                "next": "DOG_REINCARNATION_SCENE"
+            },
+            {
+                "id": "WHEEL_CHOICE",
+                "text": "Insist on the wheel of fate.",
+                "next": "WHEEL_SPIN_SCENE"
+            }
+        ]
+    },
+    "WHEEL_SPIN_SCENE": {
+        "text": "The angel assisting you looks almost scared. “You should really reconsider-” \n“No, actually, I think I'm okay with the risk. I don't have a lot to lose.” \n“Okay, but you're risking your life here!” \n“I'm already dead?” \n“Your soul, I mean.” \n“I'm not changing my mind.” \n“You really should at least think it over.” \nYou begrudgingly agree to sit in the waiting area for a bit. After an hour, you return to the desk, and the same angel who helped you last time sees you. \n“Welcome back! You've changed your mind, I'm sure?” \n“No, actually, I haven't. I'm ready when you are. I'd rather not wait any longer.” \nHer lip quivers defeatedly. “Alright, well, I'm gonna need you to fill out some paperwork first.” \n“That serious?” \n“Well, the wheel isn't standard practice anymore.” She hands you a stack of paperwork. “It's mainly just consent for the possible erasure of your soul so nobody can sue Heaven INC. later down the line.” \nYou raise an eyebrow. “Heaven can be sued? Nevermind. It's not important.” \nYou plop your signature on a few pages, only skimming through the contents. Both the guide and the office worker look dumbfounded by your choice and lack of reading comprehension. \n“Annnnnnnd… done.” You smile and hand the paperwork back. \nYour guide chimes in after you give her the paperwork, “Come with me, I'll take you to the wheels.” \nYou follow him anxiously. What if you made the wrong decision? What are the chances your soul gets erased? Shit. You should've asked about the probabilities. Too late now. He brings you to the elevator and hits the button for the top floor. The ride to the top feels endless. You figure it's just your nerves slowing down time. \nOnce the elevator opens, you breathe in relief; you hadn't noticed you were holding your breath. Didn't feel suffocated in there for no reason. \nYour guide leads you down a long hallway to a locked room, unlike the other rooms using keycard, this one had an actual keyhole. Old, much older than the newer doors downstairs. He fiddles with a keyring and unlocks the door. \nInside were four wheels in a line; they were wooden and had little drawings on them. I suppose those are the fates in store for me. They were quite unremarkable. You were expecting something much more mystical, something that looked like it could determine the course of your life. But these? They were too dreary to even keep in an arcade. \nYour guide leaned against the back wall. “Go ahead and make your pick, any of the four wheels. Then give it a spin. You'll forget all of this happened, but your new life will begin. Unless your soul gets erased, that is.” \nYou try to decide which wheel is calling to you.",
+        "choices": [
+            {
+                "id": "WHEEL_ONE_CHOICE",
+                "text": "Wheel one.",
+                "next": "BEGIN_DOG_LIFE_SCENE"
+            },
+            {
+                "id": "WHEEL_TWO_CHOICE",
+                "text": "Wheel two.",
+                "next": "GRASS_HOPPER_ENDING"
+            },
+            {
+                "id": "WHEEL_THREE_CHOICE",
+                "text": "Wheel three.",
+                "next": "DRAGON_REINCARNATION_SCENE"
+            },
+            {
+                "id": "WHEEL_FOUR_CHOICE",
+                "text": "Wheel four.",
+                "next": "SOUL_ERASURE_ENDING"
+            }
+        ]
+    },
+    "GRASS_HOPPER_ENDING": {
+        "text": "You approach the second wheel, nerves collecting in your stomach. You take a deep breath and give it a firm spin. You watch eagerly as it goes round and round, eventually landing on a grasshopper symbol. Before you have time to process what happened, you’re suddenly reincarnated as a green little bug on a blade of grass. \nYou live out the rest of your life in an unconscious, instinct-driven state. All you know is eat and survive. You chirp at night for a mate, which eventually you find. Your new life was simple, but grasshoppers don’t exactly live for long. After a peaceful year, you die with no regrets, you fulfilled your purpose, and continued your bloodline. Good job. You were a great grasshopper.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "SOUL_ERASURE_ENDING": {
+        "text": "You approach the fourth wheel, nerves collecting in your stomach. You take a deep breath and give it a firm spin. You watch eagerly as it goes round and round, eventually landing on a classic skull and crossbones symbol. Before you have time to process what happened, your soul is no more.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "DRAGON_REINCARNATION_SCENE": {
+        "text": "You approach the third wheel, nerves collecting in your stomach. You take a deep breath and give it a firm spin. You watch eagerly as it goes round and round, eventually landing on a fire-breathing dragon symbol. Before you have time to process what happened, you'’'re suddenly in a storybook-like world, hatching from an egg in a cave filled with gold. Not bad, not bad at all. \nOver the following decades, your mother raised you, dragons aged slowly, and time felt of no importance to you. But you were starting to get bigger, your mother expected you to hunt your own food some decades ago, and helped you hone your talent as a firebreather. It was now time to leave the cave you grew up in and embark to find a cave and a mate of your own. \nYour mother gave you one final goodbye as she nudged you from your once home. You flew off and would probably never see her again. \n\nYou flew for days, your stamina unmatched. You wanted to find a location not too far from a village, in case you decided to plunder it for loot, but not close enough that they'’'d suspect where to find you. Soon it came upon you, a spacious cave with a family of bears living in it. \nAs you were far, far larger than they, you simply ate them and took over their cave. You missed having a bed of gold to lie upon, but scorched the cave with your breath to mark it and slept for the first time in nearly a week. You saw a village not too far East from the cave you'’'d picked out, maybe an hour flight for you, but many days for humans on foot, for they'’'d have to not only walk but also survive what'’'s in the forest.",
+        "choices": [
+            {
+                "id": "SCOUT_FOR_MATE_CHOICE",
+                "text": "You decide to begin looking for another dragon to settle down with soon rather than later.",
+                "next": "MATE_SCOUTING_SCENE"
+            },
+            {
+                "id": "PLUNDER_THE_VILLAGE_CHOICE",
+                "text": "Your empty cave beckons to be filled with gold and treasures. You fly over to the East Village",
+                "next": "VILLAGE_PLUNDERING_SCENE"
+            }
+        ]
+    },
+    "VILLAGE_PLUNDERING_SCENE": {
+        "text": "As you lie in your empty cave, you feel almost empty-the strongest apex predator in this world, yet nothing to show for it. You make your way to the East Village. \nThe village wasn't necessarily small, but not huge either. When you land, terrified townsfolk scramble to their homes and watch from afar, unsure of your intentions but terrified nonetheless. The puny guard surrounds you, pointing iron glaives at you in an attempt to keep you from encroaching any further on their turf. \nYou think of how to handle the situation.",
+        "choices": [
+            {
+                "id": "STEAL_ALL_GOLD_CHOICE",
+                "text": "You decide to wipe the guards out in an instant and demand that all the villagers hand over their gold and treasure, lest they want to be burned to the ground.",
+                "next": "STEAL_ALL_GOLD_SCENE"
+            },
+            {
+                "id": "STEAL_GOLD_MONTHLY_CHOICE",
+                "text": "Tell the guards that unless they bring you a large portion of their income every month, you will burn the village to the ground.",
+                "next": "STEAL_GOLD_MONTHLY_SCENE"
+            }
+        ]
+    },
+    "STEAL_ALL_GOLD_SCENE": {
+        "text": "After slaughtering the guards and showing no mercy, the villagers heed your threat and cautiously take out everything they own. You hear crying and pleading, the villagers who beg mercy from you, and you simply eat. The villager didn't have nearly enough gold to fill the bed of your cave, but you feel satisfied with your first plunder. \nYou take the gold and other treasures back, but after having a taste of how good it feels to steal, you simply can't stop. You took on small villages you knew couldn't fight back. After weeks became months, your cave was overflowing with gold, and you finally felt satisfied. \nYou feel ambitious one day and consider plundering the capital city for its gold, but the risk would be high.",
+        "choices": [
+            {
+                "id": "ACCEPT_LIFE_CHOICE",
+                "text": "You decide that you're perfectly content with how much gold you have right now.",
+                "next": "ACCEPT_LIFE_SCENE"
+            },
+            {
+                "id": "ATTACK_CAPITAL_CHOICE",
+                "text": "You fly into the capital, catch the guard off guard, and attack, planning to steal all their gold once they're disabled.",
+                "next": "FIGHT_SCENE"
+            }
+        ]
+    },
+    "ACCEPT_LIFE_SCENE": {
+        "text": "The tales of your plundering and the amount of gold you have eventually attract other dragons; they admire how rich and bodacious you are. You take one on as a mate and live out the rest of your life with her and your wealth. Being rich certainly has its perks.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "STEAL_GOLD_MONTHLY_SCENE": {
+        "text": "You return to your cave. If they didn't take your threat seriously, you could always just kill them and immediately demand their resources. But month after month came the flow of gold; it was a long-term investment, unlike the immediate gratification you would've gotten. \nEven if they wanted help, the capital would never send its guard to help a puny village such as this; it was perfect. \n\nOne day, a soldier came to deliver your stipend. Normally, they were eager to leave after delivery, but this one stayed and observed you at the lip of the cave. \nYou craned your neck out towards her. “Can I help you?” \nShe took her helmet off, revealing a long red ponytail. After a deep breath and a moment to slow her racing heart, she spoke, “Dragon, Sir, our village is struggling economically. Lest you stop, our village will inevitably collapse in less than a year.” \nYou picked at the ground with your talon. If their village fell apart, there goes your monthly stipends. “Could you not lessen my portion and allocate your funds to ensure the most efficiency?” \n“We’re on the brink of total financial collapse, I'm afraid. I was told not to speak to you lest you decide to expedite the process, yet I am desperate. I beg you for mercy.” \nThis soldier certainly piqued your interest.",
+        "choices": [
+            {
+                "id": "EAT_HER_CHOICE",
+                "text": "You ignore the soldier and eat her, deciding to plunder the village for its remaining resources. You return to the village, threaten the villagers for their gold, and are once again met with the guards.",
+                "next": "STEAL_ALL_GOLD_SCENE"
+            },
+            {
+                "id": "HEAR_HER_OUT_CHOICE",
+                "text": "You decide to listen to her.",
+                "next": "LISTEN_SCENE"
+            }
+        ]
+    },
+    "LISTEN_SCENE": {
+        "text": "You listen to her explain the economic fall of the village, how they were barely hanging on before you came along, but the strain just became too much. Nearly a quarter of the village has fallen to famine, and many more are starving. They're doing their best just to survive. \nOddly enough, you enjoyed her company; it was odd, but you had been alone all this time, and any company, even human company, was nice in a way. \n“I see. Perhaps I put too much faith in the village's economic abilities.” \n“So will you spare us?”",
+        "choices": [
+            {
+                "id": "EAT_HER_CHOICE",
+                "text": "You ignore the soldier and eat her, deciding to plunder the village for its remaining resources. You return to the village, threaten the villagers for their gold, and are once again met with the guards.",
+                "next": "STEAL_ALL_GOLD_SCENE"
+            },
+            {
+                "id": "SPARE_THEM_CHOICE",
+                "text": "You find you've developed some empathy for them somehow.",
+                "next": "SPARE_THEM_SCENE"
+            }
+        ]
+    },
+    "SPARE_THEM_SCENE": {
+        "text": "“I will allow your village to rebuild; however, I wish for visits from you monthly to update me on the status of the village.” \nShe clasped her hands together. “Thank you for hearing me out. A guard will be sent monthly.” \nYou crane your neck. “I want you specifically.” \nShe swallowed. “Understood.” \n“Well, you can be off now, and take the gold you brought me today back. It seems your village needs it more than I.” You never figured you'd give gold away, but there's a first time for everything. \n\nOver several months, you and the knight got close; she told you of human culture, legends, and myths. You found you enjoyed each other's company. It became common practice for you to send her back with gold. In the end, you gave back to the village what you had stolen from them. \nThe villages were confused by your sudden change of heart, no doubt, but you couldn't care less about them. You only cared for the knight's company. You confess, you even felt a bit romantically inclined. \nThe next time she returned, you had already given back all the gold, yet she had a smile on her face. “The village is doing so well now. The townsfolk actually wanted to thank you for helping us rebuild. Would you come down tonight for dinner?” \n“Dinner?” You inquire. \n“Mhm. They're preparing a huge feast as a celebration for the rebuilt economy. If it's not too much trouble, they'd like to have you there.” \n“Do they not resent me for stealing their gold and inducing a famine?” \n“We were poor beforehand—you only accelerated the inevitable—but with help from you and nearby villages, we were able to get back on our feet. There's no doubt we'll most likely struggle again financially in the future; however, for the time being, we want to enjoy our progress.” \nYou nod. “Tonight you said?” \n“Yes.” \n“We should begin flying now. At my top speed, I could make it there in less than an hour, but I'd rather not risk hurting you. Climb on my back, and we shall be off.” You plant a wing on the floor to allow her to climb up. \nShe moved onto your back, and you took off. The two of you said nothing, but the feel of her hugging your rough back was, in short, nice. You arrived by sunset. \nThe townsfolk at the gate looked afraid to approach you, but some were more brave, thanking you for sparing them. A few curious children took it upon themselves to get your attention. Albeit a little annoying, you didn't mind being appreciated rather than feared. \nThe tension eased further into the night; eventually, nobody feared you. You ate and joked with the townsfolk but craved alone time with the knight. \n\nYou headed outside the village walls into the woods. She noticed you leaving and followed. \n“Is something wrong?” She asked pensively. \nYou sat and looked at the moon, letting the cheers of the townsfolk fill the air as you took a breath of the crisp, cold air. “I hadn't realized how alone I was until you spoke to me.” \nShe fidgeted with her hair. “Well, thank you.” \nYou looked down at her. “Truthfully, the only one I cared for was you. I think I love you. It's not a feeling I'm well acquainted with, and I can't say we experience love the same. I know I want to stay by your side, get to know you better, and help you. I enjoy seeing you happy.” \nAlthough it was dark and her face was only illuminated by the moonlight, you could still see her flushed red. “I had no idea.” Her voice was soft and shy. “I like you too.” \n\nAnd so the two of you sat in silence for a moment, enjoying the company of one another without a word spoken. You're glad you stopped to listen for once.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "MATE_SCOUTING_SCENE": {
+        "text": "Over the next few weeks, you scout the area, leave your scent on rocks and trees, and try to pick up any from fellow dragons. You never thought finding a mate would be easy, after all, the only other dragon you'd ever seen was your mother. \nA bit defeated, you retreat to your cave to think of a better plan to scout a mate. \nAs you lie in your empty cave, an idea jumps to you: you'd heard stories of dragons marrying princesses. With your newfound goal of finding a princess, you fly out and scout for stray villagers. \nOf course, a princess wouldn't reside in a small village such as the East village; however, if you can get the villagers to give you a map to the nearest capital, perhaps there'd be a princess there. \n\n You soon find a small party of travelers, a horse pulling their dragon full of livestock, with them walking alongside. You stalk from afar and wait for them to reach a clearing in the trees to land and introduce yourself. \nYou care not about how they might react upon seeing you, but you hadn't expected them to try to run immediately after landing. \nYour mother taught you their language, but it wouldn't be fair to say it was something you were used to. \n“Wait.” You commanded loudly. “I do not intend to hurt you unless you run.” \nThe humans hadn't made it very far; you could easily catch up to them either way, so running was pointless. Stretching your tail out, you blocked them, causing them to avalanche upon each other and fall. \n“I merely wish to have a conversation.” You boomed. \nThey were all shaking and seemed unreasonable. You let out a smoky sigh at their incompetence and gave them minutes to regain composure. \nA long minute later, a human male in the group caught his breath and approached you warily, motioning his group to stay behind. “Um,” He tugged at his shirt nervously, “What is it you want from us?” \n“Are you lot travelers?” You inquire, craning your neck down to meet his eyes at face level. \n“Yes.” \n“Not the talkative type, hm?” You jest. “Irrelevant. I wish to know if you hold a map.” \nHe swallowed. “Yes.” \n“Is that all you say? Yes? It's been awfully long since I had any company, do spare me a few more words?” \nYour eyes pierced his; he looked away before speaking. “What is it you want me to say?” \n“Perhaps tell me about the human society. See, I'm a younger dragon just getting my bearings. I was searching for a mate, but the dragon population is rather dull, so I decided to seek human company instead.” \n“As in a human partner?” He asked, a bit awestruck. \n“I'm not opposed to the idea. I've heard legends of dragons and princesses, and now I wish to seek out a princess's heart to win. But with how you lot have reacted, I find that possibility rather drear.” \n“Well–It's just none of us have seen a dragon, you see? I'm sure the king would have no choice but to give you an audience if he knew your intentions were pure. But then again, the royal guard is nothing to scoff at; if things go wrong, they'll certainly take you out.” \n“You jest? You must? Humans could not dare rival a dragon in strength.” A smoky trail floats from your nostrils. \n“Well, they have strong gear, magic, technology! You're only one dragon, and there are hundreds of trained soldiers. They've taken out dragons before, I've heard from the paper.” \nYou pick at the ground with your talons. “Certainly cause for concern if I intended to fight; however, I only wish an audience with the princess. Perhaps you could assist me?” \nThe human man looked wary and glanced back at his party–three others, two women, and another man–they looked unsure. “I mean no disrespect, but–” \nYou tap the ground with your talon, causing it to shake slightly. Your eye pinned on him like prey. He swallowed hard. “A snack doesn't sound so bad.” You lick your lips mischievously. \nHe robotically turns his head again, his entire party urging him not to say anything that might get him eaten. \n“But… we'll help you. Of course.” \nYou chuckle a little. “And why would that be disrespectful?” \nHe shook his head and laughed nervously. “Not sure what I was thinking.” \n“Well, I'm certainly no good at reading maps. Why don't you lead the way to the capital?” \nHe scratched his neck. “Well, we'd have to stock up on supplies for the trip–we hardly have enough for a few days, and on foot, the capital's nigh a fortnight away.” \n“Shant be a problem if I fly you?” \n“W-Well, I suppose not,” He uttered, “But-” \n“Very well. We leave now.” You extend your wing down for them to climb. “I won't fly at my top speed to preserve your safety, but do scream the instructions. While my hearings good, from my back with the wind, I may not catch the directions if your tones low.” \nHe nodded and gestured for his party to mount my back. “Could you perhaps drop the wagon back at the village? If you'd be so kind.” \n“Very well. I figure it's the least I can do for your help.” \nWith them now on your back, you accelerate into the air, grabbing the wagon and horse in your talons, making a pit stop at the village. You were only there for a moment, so you do not explain your presence nor care for the reactions of the humans who saw you. More likely than not, they were flustered, but they'll be fine. \n\nAnd so began your journey, a very short journey thanks to your flight. The man giving you instructions almost couldn't keep up with your speed, but you made it regardless. And so you landed out of sight, a bit away from the city. Drawing attention would be bad–especially if they regarded you as a threat. And so you must think of a plan.",
+        "choices": [
+            {
+                "id": "PLAY_DEAD_CHOICE",
+                "text": "“Perhaps we pretend as if your party has slain me; certainly, they'd bring you to talk to the king. He'd surely request my corpse be brought for confirmation, and once I'm close enough, we'll reveal our true intentions. Getting the king to hear me out if I just walked in there might not be easy, but if his guard is down, he may be willing to hear me out.”",
+                "next": "PLAY_DEAD_SCENE"
+            },
+            {
+                "id": "NEGOTIATION_CHOICE",
+                "text": "“I will send you four in my stead. Do whatever is necessary to request an audience with the king on my behalf. I will send you with one of my scales as evidence. Once it is safe, return here with a proper invitation, and I shall go see him myself. Walking in there would just get me labeled as a threat.”",
+                "next": "NEGOTIATION_SCENE"
+            }
+        ]
+    },
+    "PLAY_DEAD_SCENE": {
+        "text": "You get a bit closer to the city, lie down, and slow your pulse to nearly stop. A neat little dragon trick if you do say so yourself. The party you've 'employed' goes to the city and returns with guards. \n“We took down this dragon, we were wondering if we could get an audience with the king-oh, and bring the corpse.” \nOne of the guards looked awestruck. “O-Of course. We'll bring out a cart and soldiers to help move it.”\nAnd so, as the guard said, backup came with huge carts. They hoisted your body and exerted much effort to hoist your body into the city and to the king's residency. You were presented in front of his throne with the party who'd slain you.' The entire process took several hours. \nThe king was a short, grey-haired fellow with a smoker's voice. “You four must be the brave party who brought down this beast!” \nHow uncouth, you thought. \nThe man who'd usually spoken for the party stepped up. “Yes, this dragon is our responsibility; however, your majesty, there's something you must know. And he brings you no harm, the dragon wanted an audience, excuse our foul play.”\nThe King raised an eyebrow. “You're speaking in riddles, boy. What do you mean, the dragon wants an audience?” \nThat's your cue. You raise your neck, albeit there's not a lot of room to move. You make sure not to raise your head too high, only meeting the king at eye level. “Your Majesty, I have a proposition.” \nThe king retreats to the back of his throne, curling up in fear. His guards and soldiers have already surrounded you, pointing their spears and swords as if it's a threat. “I really mean no harm.” \nThe King looked at the party. “This has to be a joke! Do something!” \nThe party members looked unsure. Their leader spoke, “He really does not intend to cause harm to your city. Please hear him out.”\nThe king paused for a minute, soon giving his soldiers the command to stand down. “If you truly only want to talk dragon, there is no need for bloodshed.” His tone seemed composed, but he was sweating bullets. \nYou sat as comfortably as you could in the space, but could not fully extend your neck. “The reason I came here is that I seek companionship. You have a daughter, yes?” \nThe King nodded. “You wish for my daughter as a companion?” \n“Indeed, I do. In exchange, in exchange I shall protect her and your city.” \nHe adjusted himself. “And if I don't accept your proposal?” \n“Then I suppose we'll both experience great losses, hm?” \n“You're not giving me a choice, are you?” \n“Not really, no. So, will we both lose our lives?” \n“I will not force my daughter to marry the likes of you.” \n“So be it.”",
+        "choices": [
+            {
+                "id": "FIGHT_SOLDIERS_CHOICE",
+                "text": "You decide to put the king in checkmate by taking on his guard and forcing him to comply.",
+                "next": "FIGHT_SCENE"
+            },
+            {
+                "id": "KILL_KING_CHOICE",
+                "text": "While you're close, seize the opportunity and take the King's crown for yourself.",
+                "next": "KILL_KING_SCENE"
+            },
+            {
+                "id": "STEAL_PRINCESS_CHOICE",
+                "text": "Quickly dash for the Princess's room, taking her and flying off before the King has a chance to organize his soldiers.",
+                "next": "STEAL_PRINCESS_SCENE"
+            }
+        ]
+    },
+    "KILL_KING_SCENE": {
+        "text": "Before anyone has time to react, you take a quick talon and behead the king. Your speed leaves him no time to react before meeting a swift end. His head rolls to the cold marble floor, leaving a trail of blood. You delicately pick up the crown with a talon and wear it as a ring. \n“It seems the King is dead. I have dethroned him, making me your new king.” You give a toothy smile to the panicked guards. “Spread the word unless you want this place burned to the ground. I shall make a great ruler lest you don't accept me. Spare us both the bloodshed and allow me to rule.” \nThe guards glance at each other and silently retreat. They warn the citizens of their new ruler until a further plan is concocted. \nFor now, you rule as their ruler, not a terrible one at that. You're far too busy with kingdomly duties to care about romance, and so you forget about the Princess and allow her to silently live her life in the castle, though she avoids you. Life's pretty good.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "STEAL_PRINCESS_SCENE": {
+        "text": "After your standstill, you quickly decide to steal the princess and make a swift dash down the hall, breaking into the room until you see her shaking on a royal bed. Yes, perfect. You grab her in your claw and break the wall, bursting into flight before the guard has time to hunt you. \nYou hastily fly with the discombobulated princess back to your cave. \nOnce there, you let her down and introduce yourself. “I am your new mate, you should be honored to live out your puny little human lifespan with me.” \nShe spit. “Honored? To live with the likes of you?” \n“You will soon learn to accept it and grow happy with your new life alongside me. You'll find I make quite good company.” \nShe scoffed and refused to speak another word. \nDays passed, and she refused to eat; it soon came down to you forcing her. After months of this life, she became catatonic and was not the partner you had been expecting. It was quite sad, but in the end, you decided just to eat her once you figured out she was worth nothing.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "NEGOTIATION_SCENE": {
+        "text": "The party starts towards the capital. You rest your head upon the ground and wait patiently. Before long, they return with a bewildered guard to confirm your presence.\nThe party leader gestures towards you with an open palm. “As we said, our friend here is a dragon and requests an audience with the king.”\nThe guard eyes you suspiciously. “All you want is an audience with the king?” \nYou nod and pick at your canines with your talon. “Of course. Why would I intend to cause any harm, knowing how strong your guard is?” \nThe guard nods. “I'll have to confirm with the king first.” \nYou grin. “That won't be an issue. Take your time.” \n\nThe guard you had spoken to earlier soon returns with a dozen soldiers. “We shall escort you to the king. As the citizens may be uncomfortable with your entrance, we ask that you not draw attention and only follow and acknowledge us directly to the King.” \nYou nod. “That's fine. Let's be off.” \nAnd so you follow them to the castle. Despite the lavish, large door, you could still barely fit through the frame. Now, face-to-face with the king who sat on his throne against the back wall, you decide to bow to show respect.\n“Your majesty, I must thank you for agreeing to meet with me.”\nHe scratched his chin. “Well, it's not every day that a dragon such as yourself requests to see me. In fact, a sensible dragon has never dared to come on our land, but you must be smart enough to know you could win against us? If your intentions are only to talk, let me hear what you have to say.” \nYou crane your neck down so you meet him at eye level. “I am interested in the Princess. I seek a partner. If you agree, your city shall be protected by a dragon.” \nHe furrowed his brow. “That's asking for a lot. I wouldn't dare marry my daughter off without her thoughts first. If she's inclined, I'll introduce you, but the fate of your relationship is not decided by me.” \nYouƒ watched as he informed a guard to fill the Princess in on the situation. What were the chances she'd actually agree to get to know you, though? You waited, a bit nervously, as the guard returned with a young woman–she was around your physical age, perfect. \nYou offer a single talon, and she shakes it with a nervous laugh. “I never thought a dragon would be interested in me.”  \nYou'd never romantically talked to someone before and didn't know the best way to secure her as your wife. Threatening her and the King for her hand in marriage would certainly get you somewhere, but you wondered if it was better to take things at her pace instead.",
+        "choices": [
+            {
+                "id": "THREATEN_ROYALS_CHOICE",
+                "text": "You decide that a threat is the best way to get where you want.",
+                "next": "THREATEN_ROYALS_SCENE"
+            },
+            {
+                "id": "WIN_OVER_PRINCESS_CHOICE",
+                "text": "You decide to take things at her pace.",
+                "next": "WIN_OVER_PRINCESS_SCENE"
+            }
+        ]
+    },
+    "THREATEN_ROYALS_SCENE": {
+        "text": "You clear your throat and bring your neck up. “I simply did not come here to take no for an answer; I intend to have a bride through any means necessary.” You crane your neck towards the king. “You wouldn't want to put your city at stake, would you?” \nHe swallowed hard. “And here I thought you might be different from the other egotistical brutes of your kind.” He gestured for his daughter to leave.\nShe put a hand over her mouth and started back for her quarters. You watched her run away, then looked back at the King. “Ah, so that's how it's going to be?” \nYou have to think of a plan fast.",
+        "choices": [
+            {
+                "id": "KILL_KING_CHOICE",
+                "text": "While you're close, seize the opportunity and take the King's crown for yourself.",
+                "next": "KILL_KING_SCENE"
+            },
+            {
+                "id": "STEAL_PRINCESS_CHOICE",
+                "text": "Quickly dash for the Princess’s room, taking her and flying off before the King has a chance to organize his soldiers.",
+                "next": "STEAL_PRINCESS_SCENE"
+            },
+            {
+                "id": "FIGHT_SOLDIERS_CHOICE",
+                "text": "You decide to put the king in checkmate by taking on his guard and forcing him to comply.",
+                "next": "FIGHT_SCENE"
+            }
+        ]
+    },
+    "WIN_OVER_PRINCESS_SCENE": {
+        "text": "You laugh to ease the tension. “The dating pool, as you would say, is not great for my kind. I had looked for quite a while but turned up empty, and so I decided a change of pace was necessary. I am not well-versed in human mating traditions. Perhaps you could teach me?”\nShe offered a smile. “It's not too complicated–” And so she told you the ins and outs of Human culture and customs, and you shared some stories of your own. In the end, the two of you rather enjoyed each other's company, and while it wasn't as fast as you thought, you enjoyed your slow romance with her. \nThe city grew used to your presence, and a room in the castle was built just for you. But human life spans are short; while your time together was blissful and something you'd never regret, you noticed your wife growing old. It brought an unexplored feeling to your chest, a deeply uncomfortable one. \nThe King had passed decades ago, and you knew your wife wouldn't live forever, yet still, you couldn't accept the truth until the last second when she passed peacefully in her sleep. As the two of you had no children to take over the throne, you ruled the kingdom. The King had taught you much while he was alive, and you had no problem ruling the city for many centuries to come. The capital became known for its benevolent dragon King.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "STREETS_SCENE": {
+        "text": "You fall back onto the streets where you began, it was full of Humans and numerous animals, but the loot was far greater than the alley where only scraps were. Most Humans ignored you so long as you didn't disrupt their business, but you still had to be careful of animal control.",
+        "choices": [
+            {
+                "id": "RUN_AWAY_CHOICE",
+                "text": "You decide confrontation isn't worth the risk.",
+                "next": "RUN_AWAY_SCENE"
+            },
+            {
+                "id": "ATTACK_HIM_CHOICE",
+                "text": "After getting kicked and cursed at for no reason, you decide he needs to learn a lesson.",
+                "next": "ATTACK_MAN_SCENE"
+            }
+        ]
+    },
+    "ATTACK_MAN_SCENE": {
+        "text": "Your ears flatten in a defensive display, but he approaches you again, getting ready to kick your side once more. Before he has time, you lunge and bite down on his leg, mauling him in a display of unbridled anger, letting your rage take over.\nIt doesn’t take long before the police arrive. The man was screaming, trying to shake you off while fighting back the terror you induced in him. But it was all over in an instant as a bullet shook your body and shattered your bones, nesting itself in your core. You were shot. The trauma of the bullet instantly rendered you catatonic, and it didn’t take long for you to pass.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    },
+    "FIGHT_SCENE": {
+        "text": "You have the upper hand; the guard takes time to assemble, so you seize the opportunity to scramble them with one long breath of hot, fiery air. The residence combusts into flames, and you revel in it. Pained screams fill the air but are overtaken by collapsing wood and stone. Did they think they had a chance against you?\nYou fly out of the burning building with the King in your talons and head to save the Princess before she burns alive. Flying above the burning building in the two in a claw fills you with excitement. But before you have time to pat your own back, a sharp twinge pulls you out of the fantastical scene. It was raining arrows on you.\nYou charged your breath back up and half-hazardly unleashed it upon the ramparts that they stood. But you underestimated their numbers. Mages and archers shot at you, putting holes in your leathery wings. Soon, you crashed to the ground. The King and Princess were crushed by your body; there was no chance for negotiation now. You tried to get up but were overwhelmed by the mages' casting gravity spells upon you, making you feel as if you were a mouse in a glue trap. \nIn an instance, it was over, several soldiers lined up against your neck and struck with mighty force and metal strong enough to make quick work of your scales. You let out one final roar before closing your eyes for good.",
+        "choices": [
+            {
+                "id": "RETRY_CHOICE",
+                "text": "Try again?",
+                "next": "START_SCENE"
+            }
+        ]
+    }
+}
