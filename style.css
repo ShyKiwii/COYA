@@ -6,6 +6,11 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 32px 20px;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 button,
@@ -32,22 +37,16 @@ input {
     border: 1px solid #d3c08c;
     border-radius: 8px;
     padding: 10px 12px;
-    margin-right: 8px;
+    width: 100%;
+    max-width: 320px;
 }
 
-.version-links {
+#nameSection {
     display: flex;
-    gap: 10px;
-    margin-bottom: 12px;
-}
-
-.version-links a {
-    color: #5a3d0d;
-    text-decoration: none;
-}
-
-.version-links a:hover {
-    text-decoration: underline;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
 }
 
 .story-text {
@@ -74,5 +73,31 @@ input {
 #choices button {
     width: 100%;
     text-align: left;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    .story-text {
+        padding: 14px 16px;
+        font-size: 0.98rem;
+    }
+
+    #nameSection {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    input,
+    #nameSection button {
+        width: 100%;
+        max-width: none;
+    }
+
+    #choices button {
+        padding: 12px;
+    }
 }
 
